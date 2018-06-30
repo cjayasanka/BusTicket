@@ -1,3 +1,5 @@
+#menu items
+
 from Tkinter import *
 from tkFileDialog   import askopenfilename
 
@@ -24,3 +26,4 @@ menu.add_cascade(label="Help", menu=helpmenu)
 helpmenu.add_command(label="About...", command=About)
 
 mainloop()
+
